@@ -1,0 +1,11 @@
+
+<form action="api/v1/doctors/search" method="GET">
+  <input
+    type="hidden"
+    name="authenticity_token"
+    value="<%= form_authenticity_token %>">
+
+  <input type="text" name="doctor[name]" value="">
+
+  <input type="submit">
+</form>
